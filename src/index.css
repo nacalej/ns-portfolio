@@ -1,13 +1,81 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: #36b7e5;
+
+}
+
+h1, h4, p, a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #F3D9FF;
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light {
+  /* background: rgba(255, 255, 255, 0.2); */
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* Tamaño del scroll */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+ /* Estilos barra (thumb) de scroll */
+::-webkit-scrollbar-thumb {
+  /* background:  linear-gradient(90deg, #f8cd2d, #00BFFF, #6c0979); */
+  background: #3C3D3C;
+
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #3C3D3C;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #868887;
+
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+::-webkit-scrollbar-track {
+  background: #1111118e;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track:hover, 
+::-webkit-scrollbar-track:active {
+  background: #000000e8;
+
 }
