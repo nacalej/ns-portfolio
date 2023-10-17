@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/WorkCardStyles.css";
-import { NavLink } from 'react-router-dom';
-import { BsEye, BsFileCode } from 'react-icons/bs';
+
 
 const WorkCard = ({item}) => {
   return (
