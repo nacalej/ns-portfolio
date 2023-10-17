@@ -3,12 +3,13 @@
     /* border: 1px solid red; */
     /* max-width: 1140px; */
     /* width: 85%; */
-    margin: auto;
+    width: 95%; 
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 30px;
     padding: 20px;
-    
+    justify-content: center;
+    /* margin: auto;     */
     /* max-width: 1140px;
     margin: auto;
     display: grid;
@@ -24,7 +25,8 @@
 .project-card{
     /* background: #1a1919; */
     border-radius: 30px;
-    background: #ea899be8;;
+    /* background: #ea899be8; */
+    background: #deaae9;
     padding: 1.2rem 1rem;
     display: flex;
     justify-content: center;
@@ -54,8 +56,7 @@
     text-align: justify;
 }
 
-.pro-btns {
- 
+.pro-btns { 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,6 +69,7 @@
 .pro-btns .btn{
     display: block;
     border: #36b7e5;
+    background: #36b7e5;;
     border-radius: 10px;
     padding: 0.5rem 1rem;
     margin: 6px;

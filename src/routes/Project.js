@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <div>
       <Navbar />
-      <HeroImageTwo heading="Proyectos." text="Algunos de mis trabajos más recientes." />
+      <HeroImageTwo heading="Proyectos." text="Mis trabajos más recientes." />
       <Work />
       <Footer />
     </div>
