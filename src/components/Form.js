@@ -72,26 +72,7 @@ const Form = () => {
       }
     
       //Alert success
-      const showAlert = () => {
-        Swal.fire({
-          title: "¡Mensaje enviado!",
-          type: "success",
-          icon: "success",
-        }).then((result) => {
-          window.location.reload();
-        });
-      };
-    
-     
-      const showAlertError = () => {
-        Swal.fire({
-          title: "¡Error!",
-          type: "error",
-          icon: "error",
-        }).then((result) => {
-          window.location.reload();
-        });
-      };
+   
        //Function submit:
        function handleSubmit(e){
         if(!errors.name &&
@@ -107,10 +88,10 @@ const Form = () => {
         .then(
           () => {
             // icon, title, text, type
-            showAlert("success", "¡!", "¡Mensaje enviado! 😊", "success");
+            show("success", "¡!", "¡Mensaje enviado! 😊", "success");
           },
           () => {
-           showAlertError("error", "¡!","error", "¡No se pudo enviar el mensaje!😔", "error");
+           show("error", "¡!","error", "¡No se pudo enviar el mensaje!😔", "error");
           }
         );
         e.target.reset();
