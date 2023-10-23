@@ -7,7 +7,7 @@ form{
     flex-direction: column;
     padding: 4rem 1rem;
     margin: auto;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 form input, form textarea{
@@ -19,10 +19,9 @@ form input, form textarea{
     border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .form p{
-    color:  rgba(255, 0, 0, 0.692);
+color:  rgba(255, 0, 0, 0.692);
 margin-top: -1rem;
 left: 1.25rem;
 font-size: 1.1rem;
 padding: 0.25rem;
-/* background-color: var(--body-color); */
 }

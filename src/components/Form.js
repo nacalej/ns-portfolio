@@ -43,15 +43,14 @@ const Form = () => {
       }
 
         //alert 
-  const show = (icon, title, text, type) => {
+  const show = (icon, title, text) => {
     Swal.fire({
     //   icon: 'success',
       icon: icon,
       title: title, 
-      type: type,
     //   type: "success", 
       text: text
-    //   text: "Nos comunicaremos contigo, cuando validemos tu pago.😊"
+    //  
   
   }).then((result) => { window.location.reload(); });
 
@@ -84,14 +83,14 @@ const Form = () => {
         e.preventDefault();
         console.log("Input: ", data);
         emailjs
-        .sendForm('gmailMessage', 'template_kgcoa1b',  form.current, 'HvW7qoCbK49SuIY84')
+        .sendForm('gm','template_hoqd3pw',  form.current, 'HvW7qoCbK49SuIY84')
         .then(
           () => {
             // icon, title, text, type
-            show("success", "¡!", "¡Mensaje enviado! 😊", "success");
+            show("success", "¡Mensaje enviado!😊");
           },
           () => {
-           show("error", "¡!","error", "¡No se pudo enviar el mensaje!😔", "error");
+           show("error", "¡No se pudo enviar el mensaje!😔");
           }
         );
         e.target.reset();
@@ -191,7 +190,7 @@ const Form = () => {
                             </p>
                       
 
-                        <button  type="submit"  className='btn button button--flex'>Enviar mensaje
+                        <button  type="submit"  className='btn button button--flex'>Enviar mensaje {" "}
                         <i className='uil uil-message' ></i>
                         </button>
                     </form>

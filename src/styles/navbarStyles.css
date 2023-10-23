@@ -28,6 +28,9 @@
 }
 
 @media screen and (max-width: 1040px){
+    .header{
+        width: 90%;
+    }
     .nav-menu{
         flex-direction: column;
         justify-content: center;

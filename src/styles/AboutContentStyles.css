@@ -37,7 +37,9 @@ border-radius: 21px 137px 53px 176px;
 -moz-border-radius: 21px 137px 53px 176px;
 -webkit-border-radius: 21px 137px 53px 176px;
 }
-
+.btn-cv{
+    margin-top: 5px;
+}
 .right .top{
     grid-column: 1 / span 8;
     grid-row: 1;
