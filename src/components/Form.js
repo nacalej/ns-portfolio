@@ -81,7 +81,7 @@ const Form = () => {
           ){  
     
         e.preventDefault();
-        console.log("Input: ", data);
+        //console.log("Input: ", data);
         emailjs
         .sendForm('gm','template_hoqd3pw',  form.current, 'HvW7qoCbK49SuIY84')
         .then(
