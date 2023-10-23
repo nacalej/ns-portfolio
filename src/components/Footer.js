@@ -31,8 +31,20 @@ const Footer = () => {
                     Disfruto de la creación y diseño de nuevos proyectos, me gusta trabajar en equipo y la resolución de conflictos.</p> */}
                 
                 <div className='social'>
-                <FaLinkedin size={20} style={{color: '#FFF', marginRight: '2rem'}}/>
-                <FaGithub size={20} style={{color: '#FFF', marginRight: '2rem'}}/>
+                <a href="https://www.linkedin.com/in/nacarith-sequera/"
+                  target="_blank" 
+                  rel="noreferrer" >
+                    <FaLinkedin size={20} style={{color: '#FFF', marginRight: '2rem'}}
+                    />
+                </a>
+
+                <a
+                 href="https://github.com/nacalej" 
+                 target="_blank"
+                  rel="noreferrer"
+                >
+                    <FaGithub size={20} style={{color: '#FFF', marginRight: '2rem'}}/>
+                </a>
                 </div>
             </div>
         </div>
