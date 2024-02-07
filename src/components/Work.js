@@ -7,12 +7,12 @@ console.log("Work data: ", WorkCarData);
 
 const Work = () => {
   return (
-    <div className='work-container'>
+    <div className='container'>
         <h1
         className='project-heading'>
             {/* Proyectos */}
         </h1>
-        <div className='project-container'>
+        <div className='box-container'>
             {
                 WorkCarData?.map((item) => {
                     return (
