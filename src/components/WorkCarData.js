@@ -3,9 +3,19 @@ import MovieMark from "../assets/movieMark.jpg";
 import Pokes from "../assets/pokesO.jpg";
 import StarWars from "../assets/microservicios.jpg";
 import SanmyControl from "../assets/sanmyControl.png";
+import OptiZet from "../assets/OptiZet.png";
+
 const portfolio = [
-  {
+    {
     id: 1,
+    image: OptiZet,
+    title: "OptiZet",
+    text: "OptiZet es una plataforma web para gestionar soporte técnico de desarrollos Z en ABAP. Incluye autenticación segura, roles administrativos, gestión de perfiles, control de acceso por compras y generación de documentación técnica. Repositorio privado – disponible bajo solicitud.",
+    github: "https://github.com/nacalej/optizet",
+    demo: "",
+  },
+  {
+    id: 2,
     image: SanmyControl,
     title: "Control de alquileres.",
     text: "Proyecto desarrollado para una pequeña empresa, que desea tener un control de ingresos. Puede consultar el monto total de ingresos por mes y por día, registrar clientes, editarlos, eliminarlos, buscar por nombre y dirección MAC. Además, puede registrar un alquiler, editar el registro, o eliminarlo.",
