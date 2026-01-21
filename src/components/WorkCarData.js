@@ -11,7 +11,7 @@ const portfolio = [
     image: OptiZet,
     title: "OptiZet",
     text: "OptiZet es una plataforma web para gestionar soporte técnico de desarrollos Z en ABAP. Incluye autenticación segura, roles administrativos, gestión de perfiles, control de acceso por compras y generación de documentación técnica. Repositorio privado – disponible bajo solicitud.",
-    github: "https://github.com/nacalej/optizet",
+    // github: "https://github.com/nacalej/optizet",
     demo: "",
   },
   {
