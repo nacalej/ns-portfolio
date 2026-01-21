@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/AboutContentStyles.css';
 import NS from '../assets/nsProfileShadow.png';
 import Pat from '../assets/pattern.jpg';
-import CV from '../assets/CV_Nacarith_Sequera_Programador_web_Full_Stack.pdf';
+import CV from '../assets/Nacarith_Sequera_CV_FullStack.pdf';
 
 const AboutContent = () => {
   return (
