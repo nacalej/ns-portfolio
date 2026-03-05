@@ -30,6 +30,16 @@
     max-width: 600px;          
 }
 
+/*BOTONES*/
+.about .left .btn {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.about .left {
+    text-align: center; /* para que queden centrados */
+}
+
 .right .img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
