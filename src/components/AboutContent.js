@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/AboutContentStyles.css';
 import NS from '../assets/nsProfileShadow.png';
 import Pat from '../assets/pattern.jpg';
-import CV from '../assets/Nacarith_Sequera_SAP_Junior_ABAP_Fiori';
+import CV from '../assets/Nacarith_Sequera_SAP_Junior_ABAP_Fiori.pdf';
 
 const AboutContent = () => {
   return (
