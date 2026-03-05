@@ -12,7 +12,7 @@ const Project = () => {
       <Navbar />
       <HeroImageTwo
         heading="Acerca de mí."
-        text="Soy una apasionada programadora web Full Stack."
+        text="Soy desarrolladora web Full Stack con interés en crear soluciones funcionales y bien diseñadas."
       />
       <AboutContent />
       <CarouselComponent images={images} />
